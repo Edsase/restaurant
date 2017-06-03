@@ -1,0 +1,13 @@
+Page function					URL Mapping
+1. home / restuarant list		/ or /restaurants
+2. menu items					/restaurants/<rest_id>/menu_items
+3. add menu						/restaurants/<rest_id>/new_menu
+4. delete menu					/restaurants/<rest_id>/<menu_id>/delete_menu
+5. edit menu					/restaurants/<rest_id>/<menu_id>/edit_menu
+6. delete restuarant			/restaurants/<rest_id>/delete_restaurant
+7. edit restuarant				/restaurants/<rest_id>/edit_restaurant
+8. create restuarant			/restaurants/new_restaurant
+9. login						/login
+
+
+								

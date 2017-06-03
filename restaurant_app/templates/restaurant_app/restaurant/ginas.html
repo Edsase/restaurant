@@ -1,0 +1,68 @@
+{% extends 'restaurant_app/restaurant/base.html' %}
+
+{% load staticfiles %}
+
+{% block nav_bar %}
+    <!-- Collect the nav links, forms, and other content for toggling -->
+
+{% endblock %}
+
+{% block restaurant_heading %}
+        <div id="top" class="starter_container bg">
+            <div class="follow_container">
+                <div class="col-md-6 col-md-offset-3">
+                    {% if restaurant %}
+                        <h2 class="top-title">{{restaurant.name}}</h2>
+                    {% else %}
+                        <h2 class="top-title">Restaurant is not available</h2>
+                    {% endif %}
+                    <h2 class="white second-title">" Menu details comings soon! "</h2>
+                    <hr>
+                </div>
+            </div>
+        </div>
+{% endblock %}
+
+{% block about_us %}
+        <!-- ============ About Us ============= -->
+
+{% endblock %}
+
+ {% block pricing %}
+       <!-- ============ Pricing  ============= -->
+
+{% endblock %}
+
+{% block drinks %}
+
+
+{% endblock %}
+
+
+{% block our_breakfast %}
+       <!-- ============ Our Bread  ============= -->
+
+{% endblock %}
+
+
+{% block featured_dish %}
+        <!-- ============ Featured Dish  ============= -->
+
+{% endblock %}
+
+
+{% block reservation %}
+        <!-- ============ Reservation  ============= -->
+
+{% endblock %}
+
+{% block social %}
+        <!-- ============ Social Section  ============= -->
+
+
+{% endblock %}
+
+{% block contact %}
+        <!-- ============ Contact Section  ============= -->
+{% endblock %}
+
